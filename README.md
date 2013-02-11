@@ -1,29 +1,37 @@
 # HatebuEntryInfo
 
-TODO: Write a gem description
+'hatebu_entry_info' is ruby library for 'hatena bookmark entry information get API'.
 
-## Installation
+## Requirements
+
+- ruby 1.9
+- json
+
+## Install
 
 Add this line to your application's Gemfile:
 
-    gem 'hatebu_entry_info'
+```
+gem 'hatebu_entry_info', :github => 'yukihir0/hatebu_entry_info'
+```
 
 And then execute:
 
-    $ bundle
+```
+% bundle install
+```
 
-Or install it yourself as:
+## How to use
 
-    $ gem install hatebu_entry_info
+```
+url = 'http://www.hatena.ne.jp'
 
-## Usage
+api = HatebuEntryInfo.new
+@entry_info = api.get_json(url)
+```
 
-TODO: Write usage instructions here
+For more information, please see [here](https://github.com/yukihir0/hatebu_entry_info/blob/master/sample/main.rb).
 
-## Contributing
+## License
 
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+Copyright &copy; 2013 yukihir0
