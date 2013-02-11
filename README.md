@@ -1,4 +1,4 @@
-# HatebuEntryInfo
+# HatebuEntryInfo [![Build Status](https://travis-ci.org/yukihir0/hatebu_entry_info.png?branch=master)](https://travis-ci.org/yukihir0/hatebu_entry_info)
 
 'hatebu_entry_info' is ruby library for 'hatena bookmark entry information get API'.
 
