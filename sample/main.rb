@@ -59,7 +59,7 @@ def print_related
 end
 
 
-url = ARGV[0]
+url = 'http://www.hatena.ne.jp/'
 api = HatebuEntryInfo.new
 
 # when json api call

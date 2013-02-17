@@ -1,8 +1,10 @@
 # coding: utf-8
 
-class Bookmark
-    attr_accessor :user
-    attr_accessor :tags
-    attr_accessor :timestamp
-    attr_accessor :comment
+module HatebuEntryInfoEntity
+    class Bookmark
+        attr_accessor :user
+        attr_accessor :tags
+        attr_accessor :timestamp
+        attr_accessor :comment
+    end
 end

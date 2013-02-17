@@ -7,7 +7,9 @@ require 'entity/bookmark'
 require 'entity/related'
 
 class HatebuEntryInfo
-   
+    include HatebuEntryInfoProvider
+    include HatebuEntryInfoEntity
+
     # error message
     INVALID_SYNTAX_ERROR = 'json syntax is invalid.'
 
