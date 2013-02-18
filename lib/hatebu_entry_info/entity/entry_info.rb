@@ -1,6 +1,6 @@
 # coding: utf-8
 
-module HatebuEntryInfoEntity
+module Entity
     class EntryInfo
         attr_accessor :query_url
         attr_accessor :title

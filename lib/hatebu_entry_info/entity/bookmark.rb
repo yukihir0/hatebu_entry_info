@@ -1,6 +1,6 @@
 # coding: utf-8
 
-module HatebuEntryInfoEntity
+module Entity
     class Bookmark
         attr_accessor :user
         attr_accessor :tags

@@ -1,14 +1,14 @@
 # coding: utf-8
 require 'hatebu_entry_info/version'
+require 'hatebu_entry_info/provider/json_provider'
+require 'hatebu_entry_info/entity/entry_info'
+require 'hatebu_entry_info/entity/bookmark'
+require 'hatebu_entry_info/entity/related'
 require 'json'
-require 'provider/json_provider'
-require 'entity/entry_info'
-require 'entity/bookmark'
-require 'entity/related'
 
 class HatebuEntryInfo
-    include HatebuEntryInfoProvider
-    include HatebuEntryInfoEntity
+    include Provider
+    include Entity
 
     # error message
     INVALID_SYNTAX_ERROR = 'json syntax is invalid.'
