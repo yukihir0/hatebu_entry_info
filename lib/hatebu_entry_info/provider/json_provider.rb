@@ -2,7 +2,7 @@
 require 'open-uri'
 require 'cgi'
 
-module Provider
+module HatebuEntryInfoProvider
     class JsonProvider
 
         # api url

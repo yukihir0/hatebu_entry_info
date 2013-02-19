@@ -1,6 +1,6 @@
 # coding: utf-8
 
-module Entity
+module HatebuEntryInfoEntity
     class Related
         attr_accessor :title
         attr_accessor :count

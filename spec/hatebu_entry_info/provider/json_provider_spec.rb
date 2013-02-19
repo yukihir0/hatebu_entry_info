@@ -1,6 +1,6 @@
 # coding: utf-8
 require File.expand_path('spec/spec_helper')
-include Provider
+include HatebuEntryInfoProvider
 
 describe JsonProvider do
     context 'uninitialized' do

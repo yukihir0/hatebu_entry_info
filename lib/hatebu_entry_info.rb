@@ -7,8 +7,8 @@ require 'hatebu_entry_info/entity/related'
 require 'json'
 
 class HatebuEntryInfo
-    include Provider
-    include Entity
+    include HatebuEntryInfoProvider
+    include HatebuEntryInfoEntity
 
     # error message
     INVALID_SYNTAX_ERROR = 'json syntax is invalid.'
