@@ -8,7 +8,7 @@ describe HatebuEntryInfo do
                 it 'JsonProvider' do
                     api = HatebuEntryInfo.new
                     provider = api.instance_eval('@provider')
-                    provider.instance_of?(JsonProvider).should be_true
+                    provider.instance_of?(JsonProvider).should be_truthy
                 end
             end
         end
@@ -25,7 +25,7 @@ describe HatebuEntryInfo do
                 it 'call provider #json, #get' do
                     url = 'http://www.test.url/'
                     
-                    provider = mock('provider')
+                    provider = double('provider')
                     provider.should_receive(:json).and_return(provider)
                     provider.should_receive(:get).with(url).and_return(@raw_data)
                     @api.instance_variable_set(:@provider, provider)
@@ -40,7 +40,7 @@ describe HatebuEntryInfo do
                 it 'call provider #jsonlite, #get' do
                     url = 'http://www.test.url/'
                     
-                    provider = mock('provider')
+                    provider = double('provider')
                     provider.should_receive(:jsonlite).and_return(provider)
                     provider.should_receive(:get).with(url).and_return(@raw_data)
                     @api.instance_variable_set(:@provider, provider)

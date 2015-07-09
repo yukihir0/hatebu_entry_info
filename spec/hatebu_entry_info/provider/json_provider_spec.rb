@@ -64,7 +64,7 @@ describe JsonProvider do
 
             context 'when invalid url input' do
                 it 'raise error' do
-                    expect { @provider.get('http://www.test.url***/')
+                    expect { @provider.get('http://www.test.url"""/')
                     }.to raise_error(RuntimeError, JsonProvider::INVALID_URL_ERROR)
                 end
             end
