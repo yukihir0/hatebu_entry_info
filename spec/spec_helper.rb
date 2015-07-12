@@ -1,4 +1,6 @@
 # coding: utf-8
+require 'coveralls'
+Coveralls.wear!
 require 'hatebu_entry_info'
 require 'hatebu_entry_info/provider/json_provider'
 require 'hatebu_entry_info/entity/entry_info'
