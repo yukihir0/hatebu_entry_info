@@ -1,4 +1,4 @@
-# HatebuEntryInfo [![Build Status](https://travis-ci.org/yukihir0/hatebu_entry_info.png?branch=master)](https://travis-ci.org/yukihir0/hatebu_entry_info)
+# HatebuEntryInfo [![Build Status](https://travis-ci.org/yukihir0/hatebu_entry_info.png?branch=master)](https://travis-ci.org/yukihir0/hatebu_entry_info) [![Coverage Status](https://coveralls.io/repos/yukihir0/hatebu_entry_info/badge.svg?branch=master&service=github)](https://coveralls.io/github/yukihir0/hatebu_entry_info?branch=master)
 
 'hatebu_entry_info' is ruby library for 'hatena bookmark entry information get API'.
 
